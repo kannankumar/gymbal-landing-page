@@ -9,6 +9,11 @@
   <meta name="author" content="">
 
   <title>gymbal - making workouts fun</title>
+  <!-- Favicon-->  
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icons/favicon//apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon//favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon//favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -51,10 +56,13 @@
     .request-btn{
       background-color: #29A19C;
       color:white;
-      border-radius: 4rem;
-      font-size: 1.5rem;
+      border-radius: 5rem;
+      font-size: 1.2rem;
       font-weight: 700;
       font-family: Poppins;
+    }
+    .center-pad{
+      height:65vh;
     }
 
     .hero-text{
@@ -88,24 +96,27 @@
         margin-top:10px;
       }
       
+      .center-pad{
+        height:45vh;
+      }
+
       .hero-text{
         color: #29A19C;
         font-size: 3rem;
         line-height: 3.2rem;
         font-weight: 900;
-        position: absolute;
-        bottom: 25%;
-        left: 0%;
+        margin: auto;
         text-align: center;
+        margin-bottom: 20px;        
       }
       .request-btn{
         display: flex;
         justify-content: center;
-        align-items: center;
-        position: absolute;
-        bottom: 15%;
-        left: 10%;
+        align-items: center;        
+        font-size: 1rem;
+        font-weight: 700;
         text-align: center;
+        margin-bottom: 1rem;
       }
     }
 
@@ -149,10 +160,10 @@
       </div>
     </nav>
     <img src="images/icons/gymbal-logo-sticker.png" width="100px" class="logo-sticker"/>
-    <div style="height:65%">
+    <div class="center-pad">
     </div>
     <p class="hero-text text-center">PLAY GAMES &nbsp;&nbsp; STAY FIT</p>
-    <button type="button" class="btn mx-auto request-btn d-xs-block d-sm-block d-md-none mb-2">REQUEST EARLY ACCESS</button>
+    <button type="button" class="btn mx-auto request-btn d-xs-block d-sm-block d-md-none">REQUEST EARLY ACCESS</button>
     <div class="footer">
       <a href="#"><img src="images/icons/social/Twitter.png" class="social-icon"></a>
       <a href="#"><img src="images/icons/social/Instagram.png" class="social-icon ml-4"></a>
